@@ -7,7 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AsideBar: typeof import('./src/components/favorSearchAside/asideBar.vue')['default']
+    AsideBar: typeof import('./src/components/favorSearchAside/favorSearchAside.vue')['default']
     BackNavBar: typeof import('./src/components/backNavBar/backNavBar.vue')['default']
     DetailSection: typeof import('./src/components/detail-section/detailSection.vue')['default']
     DropdwonSelect: typeof import('./src/components/dropdown-select/dropdwonSelect.vue')['default']
@@ -25,7 +25,7 @@ declare module '@vue/runtime-core' {
     SearchBar: typeof import('./src/components/searchBar/searchBar.vue')['default']
     SideBar: typeof import('./src/components/sideBar/sideBar.vue')['default']
     TabBar: typeof import('./src/components/tabBar/tabBar.vue')['default']
-    TabBar1: typeof import('./src/components/tabBar/tabBar1.vue')['default']
+    TabBar1: typeof import('./src/components/tabBar/tabBar.vue')['default']
     TabControl: typeof import('./src/components/tab-control/tab-control.vue')['default']
     TabSelect: typeof import('./src/components/tabSelect/tabSelect.vue')['default']
     TabSelectItem: typeof import('./src/components/tabSelectItem/tabSelectItem.vue')['default']
